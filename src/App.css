@@ -1,0 +1,111 @@
+/* --------------background colors--------------  */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(
+      110.35% 80.79% at 6% 103.92%,
+      #cd25ef 0%,
+      rgba(37, 169, 239, 0) 100%
+    ),
+    linear-gradient(
+      169.3deg,
+      #cdf9e3 15%,
+      rgba(205, 249, 232, 0) 46%
+    ),
+    radial-gradient(
+      123% 73% at 107% 96%,
+      rgba(255, 253, 177, 1) 20%,
+      rgba(254, 228, 191, 1) 60%,
+      rgba(240, 189, 208, 1) 75%,
+      rgba(255, 129, 38, 0) 100%
+    ),
+    linear-gradient(
+      0deg,
+      #304463 0%,
+      #7D8ABC 100%
+    );
+}
+
+.navbar {
+  background-color: #2d063b;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: larger;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 50px;
+  background-color: #f0f0f0;
+  margin-top: 70px; /* Adjust margin to compensate for fixed navbar */
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section  {
+  line-height: 1.6;
+  background-color: antiquewhite;
+}
+
+
+
+/* --------------text animation--------------  */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 8s infinite alternate;
+	stroke-width: 2;
+	stroke: #1AFFF5;
+	font-size: 50px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(204,204,204,0); stroke: rgba(26,255,245,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(204,204,204,0); stroke: rgba(26,255,245,1); }
+	80%  {fill: rgba(204,204,204,0); stroke: rgba(26,255,245,1); stroke-width: 3; }
+	100% {
+		fill: rgba(204,204,204,1); stroke: rgba(26,255,245,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #2D063B};
+
+
+
+

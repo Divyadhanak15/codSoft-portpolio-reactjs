@@ -1,0 +1,36 @@
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #0b0b2f;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    box-shadow: 5px 5px 10px 1px #000000;
+    align-items:flex-start;
+    
+  }
+  
+  .about-container h1 {
+    color: #333;
+  }
+  
+  .about-container p {
+    color: white;
+    line-height: 1.6;
+    justify-content: right;
+    justify-items: right;
+  }
+
+.pic {
+  height: 500px;
+  width: 350px;
+  border-radius: 80px;
+  align-items: left;
+}
+ 
+ th {
+	padding: 3px;
+	width: 250px;
+	height: 2px;
+}

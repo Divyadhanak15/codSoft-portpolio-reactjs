@@ -1,0 +1,38 @@
+.box-container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0b0b2f; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .box-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px;
+  }
+  
+  
+  .box-content {
+    font-size: 18px;
+    color: white; 
+    line-height: 1.6;
+  }
+  
+  .box-content p {
+    margin-bottom: 10px; 
+  }
+  
+  .box-content a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  .box-content a:hover {
+    text-decoration: underline; 
+  }
